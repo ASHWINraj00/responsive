@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+ } 
+body {
+    margin: 0; 
+} 
+.img {
+    width:100%;
+}
+.clear {
+    clear: both;
+}
+.row1 .colsi { 
+    background-color: black;
+    color: white;
+    width: 100%;   
+    text-align: center;
+    padding: 20px 0;
+} 
+.row2 {
+      background-color: lightgrey;
+      width: 100%;
+      padding: 30px 0; 
+}
+.cols1 {
+    font-size: 1.5rem;
+    color: green;  
+    text-align: center;    
+}
+.cols2 {
+    text-align: center; 
+    color: black; 
+}  
+.colour {
+    background-color: chartreuse;
+    text-decoration: none; 
+    padding: 1px 2px;  
+}
+.top {
+    background-color: lightslategray; 
+    color: black;
+    text-align: center;  
+    padding: 5px 10px;
+}
+.colss {  
+    background-color: white; 
+    text-align: center;  
+    color: lightslategray;  
+    padding: 5px 10px;
+}    
+.button {
+    background-color: chartreuse;
+    color: white;
+    text-align: center;
+    border-top:3px solid orange;  
+    padding: 5px 10px;
+}
+.column { 
+    padding: 10px;
+    width: 100%; 
+} 
+.row3 {
+    background-color: purple;
+    padding: 20px 20px;    
+}  
+.row4 {
+     background-color: aquamarine;
+     width: 100%;     
+     text-align: center;
+     padding: 15px 20px;  
+}
+.colourfull {
+    width: 100%;
+}
+.small {
+    width: 100%;  
+}  
+.div2 {
+    padding: 0px 150px; 
+}
+.content { 
+    display: inline-block;
+    background-color: black; 
+    color: white;
+}  
+.small { 
+    border: 8px white double;  
+    border-width: 10px;
+} 
+.btn {
+    background-color: chartreuse; 
+    padding: 5px;
+    color: white;
+} 
+.row5 {
+    background-color: lightgrey;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.row6 {         
+    background-color: lightgrey;
+    padding: 50px;  
+    width: 100%;  
+    text-align: center;
+} 
+.sec1 {  
+    display: inline-flex; 
+    background-color: orange; 
+    color: black;  
+    text-align: center;   
+    width: 100%;
+} 
+.sec2 { 
+    display: inline-flex;
+    background-color: aqua;
+    color: black;      
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn1 {
+    background-color: transparent;
+    color: white;
+}
+.row7 {
+    background-color:rgb(90, 86, 86);
+    color: silver;
+    padding: 10px;
+    width: 100%;
+}
+.paragraph1 { 
+    padding: 10px 20px;
+}
+.line {
+    text-decoration: underline;
+}
+.green {
+    color: yellowgreen;
+}
+.mail {
+    background-color: black;
+    color: silver;
+}
+.submit {
+    background-color: yellowgreen;
+    color: white;
+}
+.icons {
+    background-color: black;
+    border: solid black;
+    display: inline;  
+}  
+.row8 {
+    background-color: black; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+} 
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row1 .colsi { 
+        background-color: blue;
+        color: white;
+        width: 50%;    
+        float: left;
+        padding: 20px 0;
+    } 
+} 
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row2 {
+        background-color: wheat; 
+        width: 100%;
+        padding: 40px 20px;    
+  }
+  .cols1 {
+      float: left;
+  }
+  .cols2 {
+      float: right; 
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .column { 
+        padding: 10px;
+        width: 33.333333%; 
+        float: left;
+    } 
+    .row3 {
+        background: transparent; 
+    }
+    .colss {  
+        background-color: aqua; 
+        padding: 10px; 
+    }
+} 
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row4 {
+        background-color: lightgreen;
+        text-align: center;
+        padding: 15px 20px;  
+    }
+    .colourfull {
+        width: 100%; 
+    } 
+    .small {
+        width: 33.3333333%;  
+    }  
+    .content { 
+        font-size: 0.8em; 
+    }  
+    .small { 
+        border: 2px white double;  
+        border-width: 5px;
+    } 
+    .btn { 
+        padding: 1px;
+    }  
+    .row4 .div2 {
+       font-size: 0.8em;
+    }
+    .div1 {
+        padding: 0px 150px; 
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row5 {
+        background-color: rgb(30, 160, 160);
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row6 {
+        background-color: lightblue;
+        font-size: 0.8rem;
+    }
+    .row6 .sec1 .sec2 {         
+        padding: 10px;  
+        float: left;
+    } 
+    .sec1 {  
+        display: inline-flex; 
+        background-color: orangered; 
+        color: black;  
+        text-align: center;  
+        width: 50%;  
+    } 
+    .sec2 {   
+        display: inline-flex;
+        background-color: slateblue; 
+        color: black;      
+        text-align: center;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row7 {
+        background-color:rgb(90, 86, 86);
+        color: silver;
+        padding: 10px;
+        width: 100%;
+        float: left;
+    }
+    .paragraph1 { 
+        padding: 10px 20px;
+        width: 33.333333%;
+        float: left;
+        background-color:rgb(90, 86, 86);
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) { 
+    .row8 {
+        background-color: blue; 
+        color: white;
+        text-align: center;
+        padding: 10px;
+    } 
+} 
